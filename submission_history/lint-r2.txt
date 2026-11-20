@@ -1,0 +1,43 @@
+A01_bc5fadac-fa6dd225.jpg: drivable 3, lane 4, road_curb 2
+A02_b3c26aff-63a0d7d6.jpg: drivable 2, lane 3, road_curb 2
+A03_b1c66a42-6f7d68ca.jpg: drivable 2, lane 2, road_curb 1, traffic_light 8, traffic_sign 3
+A04_b7a8e795-0ff55db2.jpg: drivable 2, lane 3, road_curb 2
+A05_b2576c8c-2de20b8a.jpg: drivable 1, road_curb 2
+A06_b8c66e31-37045eec.jpg: crosswalk 1, drivable 3, road_curb 1, traffic_light 4, traffic_sign 3
+A07_b41ace08-c8468690.jpg: drivable 1, lane 2, road_curb 1, traffic_light 3
+A08_c0deebc1-16cfa791.jpg: crosswalk 2, drivable 3, lane 5, road_curb 3, traffic_light 9, traffic_sign 3
+A09_c7e6d5d1-c8af9fe3.jpg: drivable 2, lane 1, road_curb 1
+A10_b6ff1331-f6d3fba8.jpg: drivable 2, lane 3, road_curb 1, traffic_light 2, traffic_sign 7
+A11_c1f35f18-b529c043.jpg: crosswalk 1, drivable 2, lane 2, traffic_light 2
+A12_c0f978fa-9b4e623f.jpg: crosswalk 1, drivable 3, lane 3, traffic_light 2, traffic_sign 3
+B01_02688_FV.png: crosswalk 2, drivable 1, road_curb 2
+B02_03177_FV.png: crosswalk 1, drivable 1, road_curb 3
+B03_04267_RV.png: crosswalk 1, drivable 2, lane 4, road_curb 2
+B04_05535_RV.png: crosswalk 1, drivable 2, lane 1
+B05_05780_MVL.png: crosswalk 1, drivable 2, lane 1
+B06_04068_MVL.png: crosswalk 1, drivable 2, lane 6
+B07_01216_MVR.png: drivable 1, lane 4
+B08_05783_MVR.png: crosswalk 1, drivable 2, lane 1
+
+[QC1-08 nhẹ] A03 traffic_light#15@(578,341): box thấp hơn 8 px: không bắt buộc
+[QC1-02 nặng] A05 lane: chưa có L1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-02 nặng] A05 lane: chưa có R1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-02 nặng] A06 lane: chưa có L1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-02 nặng] A06 lane: chưa có R1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-02 nặng] A07 lane: chưa có L1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-08 nhẹ] A07 traffic_light#3@(703,244): box thấp hơn 8 px: không bắt buộc
+[QC1-02 nặng] A08 lane: chưa có L1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-02 nặng] A09 lane: chưa có R1 (bỏ qua nếu thật sự không thấy vạch)
+[QC1-10 nhẹ] A10 traffic_sign#6@(440,232): box thấp hơn 8 px: không bắt buộc
+[QC1-10 nhẹ] A10 traffic_sign#8@(536,236): box thấp hơn 8 px: không bắt buộc
+[QC1-11 chính] B01 road_curb#4@(638,339): chỉ 2 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B02 road_curb#3@(759,384): chỉ 2 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B02 road_curb#4@(527,386): chỉ 2 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B03 lane#5@(489,357): chỉ 3 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B06 lane#4@(556,45): chỉ 2 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B06 lane#5@(274,253): chỉ 3 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B06 lane#8@(659,48): chỉ 3 điểm: trên fisheye hãy đặt điểm theo cung
+[QC1-11 chính] B08 lane#3@(211,625): chỉ 3 điểm: trên fisheye hãy đặt điểm theo cung
+
+20 ảnh, 19 cảnh báo. Lint chỉ là gợi ý; GT và người kiểm mới quyết định lỗi.
+Manifest bàn giao → submission/nguyenhobac-manifest.json
